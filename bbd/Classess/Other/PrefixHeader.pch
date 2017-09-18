@@ -1,0 +1,64 @@
+//
+//  PrefixHeader.pch
+//  bbd
+//
+//  Created by 韩加宇 on 16/12/28.
+//  Copyright © 2016年 韩加宇. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*
+ * 导入头文件
+ */
+#import "Header.h"
+
+/*
+ * (r,g,b) 获取颜色
+ */
+#define RCColor(r,g,b)  [[UIColor alloc] initWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+/*
+ * 基本色调
+ */
+#define BASE_COLOR RCColor(251,251,251)
+
+
+/*
+ * 蓝色色调
+ */
+//#define BLUE_COLOR RCColor(36, 173, 255)
+#define GOLDEN_COLOR RCColor(212, 157, 89)
+
+/*
+ * 随机色
+ */
+#define RANDOM_COLOR  RCColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+/*
+ * 获取屏幕宽度
+ */
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+
+/*
+ * 获取屏幕高度
+ */
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+/**
+ *  code
+ */
+#define CODE [responseObject[@"code"]intValue]
+
+/*
+ * 改写 NSLog
+ */
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+#endif /* PrefixHeader_pch */
