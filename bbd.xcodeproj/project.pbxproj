@@ -85,6 +85,8 @@
 		91CC2FED1E1E1EE5006CE017 /* BBDSetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC2FEC1E1E1EE5006CE017 /* BBDSetPwdViewController.m */; };
 		91DFD31C1E15E4DC00F8D4DA /* YCMineProposalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31B1E15E4DC00F8D4DA /* YCMineProposalViewController.m */; };
 		91DFD31F1E15ED0F00F8D4DA /* BBDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */; };
+		BEEDC1C01F72462A0046BDAB /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEDC1BF1F72462A0046BDAB /* Me.storyboard */; };
+		BEEDC1C31F7296A80046BDAB /* BBDMeInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDC1C21F7296A80046BDAB /* BBDMeInfoTableViewController.m */; };
 		C20A89E21E1C96AA00A34E5C /* BBDMyDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20A89E11E1C96AA00A34E5C /* BBDMyDataController.m */; };
 		C20A89E51E1CBEC400A34E5C /* BBDEditInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20A89E41E1CBEC400A34E5C /* BBDEditInformationController.m */; };
 		C20A89E81E1CC2C200A34E5C /* BBDDateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C20A89E71E1CC2C200A34E5C /* BBDDateInputView.m */; };
@@ -293,6 +295,9 @@
 		91DFD31B1E15E4DC00F8D4DA /* YCMineProposalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMineProposalViewController.m; sourceTree = "<group>"; };
 		91DFD31D1E15ED0F00F8D4DA /* BBDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDLoginViewController.h; sourceTree = "<group>"; };
 		91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoginViewController.m; sourceTree = "<group>"; };
+		BEEDC1BF1F72462A0046BDAB /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		BEEDC1C11F7296A80046BDAB /* BBDMeInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDMeInfoTableViewController.h; sourceTree = "<group>"; };
+		BEEDC1C21F7296A80046BDAB /* BBDMeInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDMeInfoTableViewController.m; sourceTree = "<group>"; };
 		C20A89E01E1C96AA00A34E5C /* BBDMyDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDMyDataController.h; sourceTree = "<group>"; };
 		C20A89E11E1C96AA00A34E5C /* BBDMyDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDMyDataController.m; sourceTree = "<group>"; };
 		C20A89E31E1CBEC400A34E5C /* BBDEditInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDEditInformationController.h; sourceTree = "<group>"; };
@@ -620,6 +625,8 @@
 				C214A58F1E162E9800250A91 /* BBDAboutBBDController.m */,
 				C214A5911E16398300250A91 /* BBDAgreementController.h */,
 				C214A5921E16398300250A91 /* BBDAgreementController.m */,
+				BEEDC1C11F7296A80046BDAB /* BBDMeInfoTableViewController.h */,
+				BEEDC1C21F7296A80046BDAB /* BBDMeInfoTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -658,6 +665,7 @@
 				C28BC37D1E1B7C1C000C1566 /* BBDApplyImageCell.m */,
 				C20A89E61E1CC2C200A34E5C /* BBDDateInputView.h */,
 				C20A89E71E1CC2C200A34E5C /* BBDDateInputView.m */,
+				BEEDC1BF1F72462A0046BDAB /* Me.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -933,7 +941,7 @@
 				TargetAttributes = {
 					91BC265A1E139F02000FDBD1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = H7BWC9NUF4;
+						DevelopmentTeam = YTV9736654;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -977,6 +985,7 @@
 			files = (
 				91BC266B1E139F02000FDBD1 /* Assets.xcassets in Resources */,
 				C2810BBB1E27704900F9E89D /* MBProgressHUD.bundle in Resources */,
+				BEEDC1C01F72462A0046BDAB /* Me.storyboard in Resources */,
 				911A22091E150B8200574920 /* SGActionSheet.bundle in Resources */,
 				2158E5581ECD750C00418B29 /* Launch Screen.storyboard in Resources */,
 				616F32B91E249AD300B451B9 /* CommonLoanPlist.plist in Resources */,
@@ -1064,6 +1073,7 @@
 				610E94E11E1F9BC400C7C9C5 /* UIAlertView+EXtension.m in Sources */,
 				6148305F1E16444900D0564D /* XLTextField.m in Sources */,
 				614830591E162F6C00D0564D /* BBDYCTableViewCell.m in Sources */,
+				BEEDC1C31F7296A80046BDAB /* BBDMeInfoTableViewController.m in Sources */,
 				C2C3E3431E1505D400360C3C /* BBDMyApplyTableViewController.m in Sources */,
 				616F32AA1E246E4000B451B9 /* BBDCommonLoanApplyTextFieldCell.m in Sources */,
 				9134EB8D1E13A45B00D659D4 /* BBDHomeViewController.m in Sources */,
@@ -1278,7 +1288,7 @@
 				CODE_SIGN_ENTITLEMENTS = bbd/bbd.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H7BWC9NUF4;
+				DEVELOPMENT_TEAM = YTV9736654;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/bbd/Classess/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = bbd/Info.plist;
@@ -1299,7 +1309,7 @@
 				CODE_SIGN_ENTITLEMENTS = bbd/bbd.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H7BWC9NUF4;
+				DEVELOPMENT_TEAM = YTV9736654;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/bbd/Classess/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = bbd/Info.plist;

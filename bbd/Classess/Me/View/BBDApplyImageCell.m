@@ -32,9 +32,7 @@
 {
     self = [super init];
     if (self) {
-        
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-        
         CGFloat imageW = SCREEN_WIDTH /4;
         CGFloat imageH = imageW * 0.75;
         

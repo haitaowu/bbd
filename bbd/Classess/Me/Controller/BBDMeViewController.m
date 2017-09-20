@@ -201,6 +201,12 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     BBDItemModel * item = self.itemArray[indexPath.row];
     
+    if (indexPath.row == 0) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Me" bundle:nil];
+        UIViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"MeInfoController"];
+       [self.navigationController pushViewController:controller animated:YES];
+        return;
+    }
     if (item.className != nil) {
         UIViewController * vc = [[[item.className class]alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
