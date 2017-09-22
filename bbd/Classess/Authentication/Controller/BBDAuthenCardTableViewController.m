@@ -1,47 +1,37 @@
 //
-//  BBDBasicInfoTableViewController.m
+//  BBDAuthenCardTableViewController.m
 //  bbd
 //
 //  Created by taotao on 2017/9/20.
 //  Copyright © 2017年 WT. All rights reserved.
 //
 
-#import "BBDBasicInfoTableViewController.h"
+#import "BBDAuthenCardTableViewController.h"
 #import "BRPickerView.h"
 #import <CoreLocation/CoreLocation.h>
 
 
-#define kEducationRowIndex                          0
-#define kMarriageStateRowIndex                      1
-#define kChildCountRowIndex                         2
-#define kLocationRowIndex                           3
-#define kDetailAdrRowIndex                          4
-#define kLiveYearRowIndex                           5
-#define kQQRowIndex                                 6
-#define kEmailRowIndex                              7
+#define kBanksRowIndex                          0
+#define kCityRowIndex                           1
 
 //系统版本
 #define IOS8_OR_LATER  ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8)
 
 
-@interface BBDBasicInfoTableViewController ()<CLLocationManagerDelegate>
+@interface BBDAuthenCardTableViewController ()<CLLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet UITableViewCell *confirmCell;
 @property (weak, nonatomic) IBOutlet UIButton *submitBtn;
-
-@property (weak, nonatomic) IBOutlet UITextField *educationField;
-@property (weak, nonatomic) IBOutlet UITextField *marriageField;
-@property (weak, nonatomic) IBOutlet UITextField *childrenField;
+@property (weak, nonatomic) IBOutlet UITextField *bankField;
 @property (weak, nonatomic) IBOutlet UITextField *cityField;
-@property (weak, nonatomic) IBOutlet UITextField *detailAdrField;
-@property (weak, nonatomic) IBOutlet UITextField *liveYearField;
-@property (weak, nonatomic) IBOutlet UITextField *qqField;
-@property (weak, nonatomic) IBOutlet UITextField *emailField;
+@property (weak, nonatomic) IBOutlet UITextField *phoneField;
+@property (weak, nonatomic) IBOutlet UITextField *cardNumField;
+
 
 @property (nonatomic,strong) CLLocationManager *locationManager;
 
 @end
 
-@implementation BBDBasicInfoTableViewController
+@implementation BBDAuthenCardTableViewController
 #pragma mark - override methods
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -50,7 +40,7 @@
 }
 
 #pragma mark - selectors
-- (IBAction)startUpldatingLocation{
+- (void)startUpldatingLocation{
     if([CLLocationManager locationServicesEnabled])
     {
         self.locationManager = [[CLLocationManager alloc]init];
@@ -88,41 +78,17 @@
 }
 
 #pragma mark - private methods UI
-//学历 textField
-- (void)setupEducationPickView
+//开户行 textField
+- (void)setupBanksPickView
 {
         __weak typeof(self) weakSelf = self;
-    [BRStringPickerView showStringPickerWithTitle:@"学历" dataSource:@[@"大专以下", @"大专", @"本科", @"硕士", @"博士", @"博士后"] defaultSelValue:@"本科" isAutoSelect:YES resultBlock:^(id selectValue) {
-        weakSelf.educationField.text = selectValue;
+    [BRStringPickerView showStringPickerWithTitle:@"开户行" dataSource:@[@"中国工商银行", @"招商银行", @"中国农业银行", @"中国建设银行", @"中国民生银行", @"中国光大银行"] defaultSelValue:@"中国工商银行" isAutoSelect:YES resultBlock:^(id selectValue) {
+        weakSelf.bankField.text = selectValue;
     }];
 }
 
-//婚姻
-- (void)setupMarriagePickView
-{
-    __weak typeof(self) weakSelf = self;
-    [BRStringPickerView showStringPickerWithTitle:@"婚姻" dataSource:@[@"已婚", @"未婚"] defaultSelValue:@"未婚" isAutoSelect:YES resultBlock:^(id selectValue) {
-        weakSelf.marriageField.text = selectValue;
-    }];
-}
 
-//子女个数
-- (void)setupChildCountPickView
-{
-    __weak typeof(self) weakSelf = self;
-    [BRStringPickerView showStringPickerWithTitle:@"子女个数" dataSource:@[@"0", @"1",@"2",@"3",@"4"] defaultSelValue:@"0" isAutoSelect:YES resultBlock:^(id selectValue) {
-        weakSelf.marriageField.text = selectValue;
-    }];
-}
 
-//居住时长
-- (void)setupLiveYearPickView
-{
-    __weak typeof(self) weakSelf = self;
-    [BRStringPickerView showStringPickerWithTitle:@"居住时长" dataSource:@[@"三个月", @"六个月",@"一年",@"两年",@"两年以上"] defaultSelValue:@"三个月" isAutoSelect:YES resultBlock:^(id selectValue) {
-        weakSelf.liveYearField.text = selectValue;
-    }];
-}
 
 //选择城市
 - (void)setupCityPickView
@@ -145,16 +111,11 @@
 {
     [self.view endEditing:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.row == kEducationRowIndex) {
-        [self setupEducationPickView];
-    }else if (indexPath.row == kMarriageStateRowIndex) {
-        [self setupMarriagePickView];
-    }else if (indexPath.row == kChildCountRowIndex) {
-        [self setupChildCountPickView];
-    }else if (indexPath.row == kLiveYearRowIndex) {
-        [self setupLiveYearPickView];
-    }else if (indexPath.row == kLocationRowIndex) {
+    if (indexPath.row == kBanksRowIndex) {
+        [self setupBanksPickView];
+    }else if (indexPath.row == kCityRowIndex) {
         [self setupCityPickView];
+    }else{
     }
 }
 

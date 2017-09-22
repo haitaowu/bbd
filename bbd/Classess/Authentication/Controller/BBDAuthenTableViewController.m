@@ -32,6 +32,8 @@
 //        destinationControl.params = sender;
     }else if ([segue.identifier isEqualToString:@"phoneAuthenSegue"]) {
         
+    }else if ([segue.identifier isEqualToString:@"cardAuthenSegue"]) {
+        
     }
 }
 

@@ -91,6 +91,7 @@
 		BE7C45A31F74A2130001BC03 /* BBDAuthenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A21F74A2130001BC03 /* BBDAuthenTableViewController.m */; };
 		BE7C45A61F74ECF80001BC03 /* BBDAuthenPhoneTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A51F74ECF80001BC03 /* BBDAuthenPhoneTableController.m */; };
 		BE7C45A91F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */; };
+		BE7C45AC1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -318,6 +319,8 @@
 		BE7C45A51F74ECF80001BC03 /* BBDAuthenPhoneTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenPhoneTableController.m; sourceTree = "<group>"; };
 		BE7C45A71F74EEF30001BC03 /* BBDAuthenPhoneSuccController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenPhoneSuccController.h; sourceTree = "<group>"; };
 		BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenPhoneSuccController.m; sourceTree = "<group>"; };
+		BE7C45AA1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenCardTableViewController.h; sourceTree = "<group>"; };
+		BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenCardTableViewController.m; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -910,6 +913,8 @@
 				BE7C45A51F74ECF80001BC03 /* BBDAuthenPhoneTableController.m */,
 				BE7C45A71F74EEF30001BC03 /* BBDAuthenPhoneSuccController.h */,
 				BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */,
+				BE7C45AA1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.h */,
+				BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1249,6 +1254,7 @@
 				C214A58D1E162A6D00250A91 /* BBDMessageDetailController.m in Sources */,
 				61A1A6B51E1E3E6500FA1CD8 /* BBDCarPhoneVerifyCell.m in Sources */,
 				C2C3E3401E14FE3700360C3C /* BBDMyApplyController.m in Sources */,
+				BE7C45AC1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m in Sources */,
 				BE7C45A31F74A2130001BC03 /* BBDAuthenTableViewController.m in Sources */,
 				61A1A6B81E1E470800FA1CD8 /* BBDCarPhoneVerifyOtherCell.m in Sources */,
 				610E94CC1E1F388700C7C9C5 /* BBDCommonPhoneVerifyController.m in Sources */,
