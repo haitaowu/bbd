@@ -31,29 +31,14 @@
 //        agencyQCodeController *destinationControl = (agencyQCodeController*)segue.destinationViewController;
 //        destinationControl.params = sender;
     }else if ([segue.identifier isEqualToString:@"phoneAuthenSegue"]) {
+        //手机认证
         
     }else if ([segue.identifier isEqualToString:@"cardAuthenSegue"]) {
-        
+        //银行/工资卡认证
+    }else if ([segue.identifier isEqualToString:@"idAuthenSegue"]) {
+        //身份证认证
     }
 }
-
-#pragma mark - selectors 
-//手机认证
-- (IBAction)clickPhoneAuthenBtn:(id)sender {
-}
-
-//基本信息认证
-- (IBAction)clickBasicAuthenBtn:(id)sender {
-}
-
-//身份证认证
-- (IBAction)clickIDAuthenBtn:(id)sender {
-}
-
-//银行/工资卡认证
-- (IBAction)clickCardsAuthenBtn:(id)sender {
-}
-
 
 
 #pragma mark - UITableView --- Table view  delegate

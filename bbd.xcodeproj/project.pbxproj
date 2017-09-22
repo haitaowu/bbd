@@ -92,6 +92,7 @@
 		BE7C45A61F74ECF80001BC03 /* BBDAuthenPhoneTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A51F74ECF80001BC03 /* BBDAuthenPhoneTableController.m */; };
 		BE7C45A91F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */; };
 		BE7C45AC1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */; };
+		BE7C45AF1F75080B0001BC03 /* BBDAuthenIDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -321,6 +322,8 @@
 		BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenPhoneSuccController.m; sourceTree = "<group>"; };
 		BE7C45AA1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenCardTableViewController.h; sourceTree = "<group>"; };
 		BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenCardTableViewController.m; sourceTree = "<group>"; };
+		BE7C45AD1F75080B0001BC03 /* BBDAuthenIDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenIDTableViewController.h; sourceTree = "<group>"; };
+		BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenIDTableViewController.m; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -915,6 +918,8 @@
 				BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */,
 				BE7C45AA1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.h */,
 				BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */,
+				BE7C45AD1F75080B0001BC03 /* BBDAuthenIDTableViewController.h */,
+				BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1305,6 +1310,7 @@
 				610E94D81E1F73FD00C7C9C5 /* XLNetworking.m in Sources */,
 				C20A89E51E1CBEC400A34E5C /* BBDEditInformationController.m in Sources */,
 				61EC763C1E14E0A20064B70C /* BBDHomeApplyCell.m in Sources */,
+				BE7C45AF1F75080B0001BC03 /* BBDAuthenIDTableViewController.m in Sources */,
 				C2A4BA461E149F5E0016BD69 /* BBDNetworkTool.m in Sources */,
 				215E20631ED3C40400F4EB35 /* BBDConnectViewController.m in Sources */,
 				91079A191E1CE42800BD1C70 /* NSString+CheckTel.m in Sources */,
