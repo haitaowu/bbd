@@ -1,20 +1,20 @@
 //
-//  BBDMeInfoTableViewController.m
+//  BBDAuthenInfoTableViewController.m
 //  bbd
 //
 //  Created by taotao on 2017/9/20.
-//  Copyright © 2017年 韩加宇. All rights reserved.
+//  Copyright © 2017年 WT. All rights reserved.
 //
 
-#import "BBDMeInfoTableViewController.h"
+#import "BBDAuthenInfoTableViewController.h"
 
-@interface BBDMeInfoTableViewController ()
+@interface BBDAuthenInfoTableViewController ()
 @property (weak, nonatomic) IBOutlet UITableViewCell *confirmCell;
 @property (weak, nonatomic) IBOutlet UIButton *submitBtn;
 
 @end
 
-@implementation BBDMeInfoTableViewController
+@implementation BBDAuthenInfoTableViewController
 #pragma mark - override methods
 - (void)viewDidLoad {
     [super viewDidLoad];

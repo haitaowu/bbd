@@ -85,6 +85,10 @@
 		91CC2FED1E1E1EE5006CE017 /* BBDSetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC2FEC1E1E1EE5006CE017 /* BBDSetPwdViewController.m */; };
 		91DFD31C1E15E4DC00F8D4DA /* YCMineProposalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31B1E15E4DC00F8D4DA /* YCMineProposalViewController.m */; };
 		91DFD31F1E15ED0F00F8D4DA /* BBDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */; };
+		BE7C45981F749E840001BC03 /* BBDBasicInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */; };
+		BE7C45991F749E840001BC03 /* BBDAuthenInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45941F749E840001BC03 /* BBDAuthenInfoTableViewController.m */; };
+		BE7C459A1F749E840001BC03 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7C45971F749E840001BC03 /* Authentication.storyboard */; };
+		BE7C45A31F74A2130001BC03 /* BBDAuthenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A21F74A2130001BC03 /* BBDAuthenTableViewController.m */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -93,9 +97,6 @@
 		BEE6A2321F738B0F0091C3C3 /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2251F738B0F0091C3C3 /* BRStringPickerView.m */; };
 		BEE6A2331F738B0F0091C3C3 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2291F738B0F0091C3C3 /* NSObject+YYModel.m */; };
 		BEE6A2341F738B0F0091C3C3 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A22B1F738B0F0091C3C3 /* YYClassInfo.m */; };
-		BEE6A2371F7394EE0091C3C3 /* BBDBasicInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2361F7394EE0091C3C3 /* BBDBasicInfoTableViewController.m */; };
-		BEEDC1C01F72462A0046BDAB /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEDC1BF1F72462A0046BDAB /* Me.storyboard */; };
-		BEEDC1C31F7296A80046BDAB /* BBDMeInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDC1C21F7296A80046BDAB /* BBDMeInfoTableViewController.m */; };
 		C20A89E21E1C96AA00A34E5C /* BBDMyDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20A89E11E1C96AA00A34E5C /* BBDMyDataController.m */; };
 		C20A89E51E1CBEC400A34E5C /* BBDEditInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20A89E41E1CBEC400A34E5C /* BBDEditInformationController.m */; };
 		C20A89E81E1CC2C200A34E5C /* BBDDateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C20A89E71E1CC2C200A34E5C /* BBDDateInputView.m */; };
@@ -304,6 +305,13 @@
 		91DFD31B1E15E4DC00F8D4DA /* YCMineProposalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMineProposalViewController.m; sourceTree = "<group>"; };
 		91DFD31D1E15ED0F00F8D4DA /* BBDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDLoginViewController.h; sourceTree = "<group>"; };
 		91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoginViewController.m; sourceTree = "<group>"; };
+		BE7C45911F749E840001BC03 /* BBDBasicInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDBasicInfoTableViewController.h; sourceTree = "<group>"; };
+		BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDBasicInfoTableViewController.m; sourceTree = "<group>"; };
+		BE7C45931F749E840001BC03 /* BBDAuthenInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenInfoTableViewController.h; sourceTree = "<group>"; };
+		BE7C45941F749E840001BC03 /* BBDAuthenInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenInfoTableViewController.m; sourceTree = "<group>"; };
+		BE7C45971F749E840001BC03 /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		BE7C45A11F74A2130001BC03 /* BBDAuthenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenTableViewController.h; sourceTree = "<group>"; };
+		BE7C45A21F74A2130001BC03 /* BBDAuthenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenTableViewController.m; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -321,11 +329,7 @@
 		BEE6A22A1F738B0F0091C3C3 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
 		BEE6A22B1F738B0F0091C3C3 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		BEE6A22C1F738B0F0091C3C3 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
-		BEE6A2351F7394EE0091C3C3 /* BBDBasicInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDBasicInfoTableViewController.h; sourceTree = "<group>"; };
-		BEE6A2361F7394EE0091C3C3 /* BBDBasicInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDBasicInfoTableViewController.m; sourceTree = "<group>"; };
 		BEEDC1BF1F72462A0046BDAB /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
-		BEEDC1C11F7296A80046BDAB /* BBDMeInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDMeInfoTableViewController.h; sourceTree = "<group>"; };
-		BEEDC1C21F7296A80046BDAB /* BBDMeInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDMeInfoTableViewController.m; sourceTree = "<group>"; };
 		C20A89E01E1C96AA00A34E5C /* BBDMyDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDMyDataController.h; sourceTree = "<group>"; };
 		C20A89E11E1C96AA00A34E5C /* BBDMyDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDMyDataController.m; sourceTree = "<group>"; };
 		C20A89E31E1CBEC400A34E5C /* BBDEditInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDEditInformationController.h; sourceTree = "<group>"; };
@@ -482,6 +486,7 @@
 		9134EB681E13A10100D659D4 /* Classess */ = {
 			isa = PBXGroup;
 			children = (
+				BE7C458F1F749E840001BC03 /* Authentication */,
 				BEE6A2141F738ADB0091C3C3 /* Lib */,
 				9134EB6D1E13A10100D659D4 /* Login */,
 				9134EB691E13A10100D659D4 /* Home */,
@@ -654,10 +659,6 @@
 				C214A58F1E162E9800250A91 /* BBDAboutBBDController.m */,
 				C214A5911E16398300250A91 /* BBDAgreementController.h */,
 				C214A5921E16398300250A91 /* BBDAgreementController.m */,
-				BEEDC1C11F7296A80046BDAB /* BBDMeInfoTableViewController.h */,
-				BEEDC1C21F7296A80046BDAB /* BBDMeInfoTableViewController.m */,
-				BEE6A2351F7394EE0091C3C3 /* BBDBasicInfoTableViewController.h */,
-				BEE6A2361F7394EE0091C3C3 /* BBDBasicInfoTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -880,6 +881,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE7C458F1F749E840001BC03 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C45901F749E840001BC03 /* Controller */,
+				BE7C45951F749E840001BC03 /* Model */,
+				BE7C45961F749E840001BC03 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BE7C45901F749E840001BC03 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C45A11F74A2130001BC03 /* BBDAuthenTableViewController.h */,
+				BE7C45A21F74A2130001BC03 /* BBDAuthenTableViewController.m */,
+				BE7C45911F749E840001BC03 /* BBDBasicInfoTableViewController.h */,
+				BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */,
+				BE7C45931F749E840001BC03 /* BBDAuthenInfoTableViewController.h */,
+				BE7C45941F749E840001BC03 /* BBDAuthenInfoTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE7C45951F749E840001BC03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE7C45961F749E840001BC03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C45971F749E840001BC03 /* Authentication.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BEE6A2141F738ADB0091C3C3 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -1048,7 +1087,7 @@
 			attributes = {
 				CLASSPREFIX = BBD;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "韩加宇";
+				ORGANIZATIONNAME = WT;
 				TargetAttributes = {
 					91BC265A1E139F02000FDBD1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1096,10 +1135,10 @@
 			files = (
 				91BC266B1E139F02000FDBD1 /* Assets.xcassets in Resources */,
 				C2810BBB1E27704900F9E89D /* MBProgressHUD.bundle in Resources */,
-				BEEDC1C01F72462A0046BDAB /* Me.storyboard in Resources */,
 				911A22091E150B8200574920 /* SGActionSheet.bundle in Resources */,
 				2158E5581ECD750C00418B29 /* Launch Screen.storyboard in Resources */,
 				616F32B91E249AD300B451B9 /* CommonLoanPlist.plist in Resources */,
+				BE7C459A1F749E840001BC03 /* Authentication.storyboard in Resources */,
 				BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1173,6 +1212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7C45981F749E840001BC03 /* BBDBasicInfoTableViewController.m in Sources */,
 				C2A4BA4C1E14CCE30016BD69 /* BBDMeMyBankCardController.m in Sources */,
 				2158E5561ECD42F800418B29 /* BBDSelectMoneyView.m in Sources */,
 				C21875071E1B4BAE000884EB /* BBDApplyDetailHeadView.m in Sources */,
@@ -1187,7 +1227,6 @@
 				6148305F1E16444900D0564D /* XLTextField.m in Sources */,
 				614830591E162F6C00D0564D /* BBDYCTableViewCell.m in Sources */,
 				BEE6A2341F738B0F0091C3C3 /* YYClassInfo.m in Sources */,
-				BEEDC1C31F7296A80046BDAB /* BBDMeInfoTableViewController.m in Sources */,
 				C2C3E3431E1505D400360C3C /* BBDMyApplyTableViewController.m in Sources */,
 				616F32AA1E246E4000B451B9 /* BBDCommonLoanApplyTextFieldCell.m in Sources */,
 				9134EB8D1E13A45B00D659D4 /* BBDHomeViewController.m in Sources */,
@@ -1198,6 +1237,7 @@
 				C214A58D1E162A6D00250A91 /* BBDMessageDetailController.m in Sources */,
 				61A1A6B51E1E3E6500FA1CD8 /* BBDCarPhoneVerifyCell.m in Sources */,
 				C2C3E3401E14FE3700360C3C /* BBDMyApplyController.m in Sources */,
+				BE7C45A31F74A2130001BC03 /* BBDAuthenTableViewController.m in Sources */,
 				61A1A6B81E1E470800FA1CD8 /* BBDCarPhoneVerifyOtherCell.m in Sources */,
 				610E94CC1E1F388700C7C9C5 /* BBDCommonPhoneVerifyController.m in Sources */,
 				91CC2FED1E1E1EE5006CE017 /* BBDSetPwdViewController.m in Sources */,
@@ -1225,6 +1265,7 @@
 				C2A4BA551E14E3920016BD69 /* BBDAddBankCell.m in Sources */,
 				616F32BE1E24AC2D00B451B9 /* BBDCommonLoanApplyTextFieldOtherCell.m in Sources */,
 				911A21EF1E14BB9D00574920 /* UIImage+Category.m in Sources */,
+				BE7C45991F749E840001BC03 /* BBDAuthenInfoTableViewController.m in Sources */,
 				C2A4BA401E13C4410016BD69 /* BBDMeHomeTableViewHeaderView.m in Sources */,
 				C2810BBC1E27704900F9E89D /* MBProgressHUD.m in Sources */,
 				91C777751E1CA00000EA03CB /* BBDRegisterViewController.m in Sources */,
@@ -1266,7 +1307,6 @@
 				6181C5251E2CB0C000FB9814 /* BBDHomeMainController.m in Sources */,
 				BEE6A2311F738B0F0091C3C3 /* BRDatePickerView.m in Sources */,
 				BEE6A2331F738B0F0091C3C3 /* NSObject+YYModel.m in Sources */,
-				BEE6A2371F7394EE0091C3C3 /* BBDBasicInfoTableViewController.m in Sources */,
 				61E6C00E1E1E16CF00CB4E97 /* BBDCommonLoanApplyController.m in Sources */,
 				61A1A6B21E1E3B3D00FA1CD8 /* BBDCarPhoneVerifyController.m in Sources */,
 				91079A291E1CF09200BD1C70 /* KeychainData.m in Sources */,

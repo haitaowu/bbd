@@ -22,9 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 添加子控制器
-    [self setupChildVc:[[BBDHomeViewController alloc] init] title:@"首页" image:@"bottom_home_icon"];
+    [self setupChildVc:[[BBDHomeViewController alloc] init] title:@"借款" image:@"bottom_home_icon"];
     
-    [self setupChildVc:[[BBDServeViewController alloc] init] title:@"服务助手" image:@"bottom_hand_icon"];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Authentication" bundle:nil];
+    UIViewController *authenticationController = [storyboard instantiateViewControllerWithIdentifier:@"AuthenticationController"];
+    [self setupChildVc:authenticationController title:@"认证" image:@"bottom_hand_icon"];
     
     BBDMeViewController * me = [[BBDMeViewController alloc]init];
     [BBDNetworkTool getUnreadMessageCount:^(int messageCount) {
@@ -37,7 +39,7 @@
     } failure:^{
         
     }];
-    [self setupChildVc:me title:@"个人中心" image:@"bottom_me_icon"];
+    [self setupChildVc:me title:@"我" image:@"bottom_me_icon"];
 }
 
 /**
@@ -53,5 +55,7 @@
     BBDRootNavigationController *nav = [[BBDRootNavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
 }
+
+
 
 @end

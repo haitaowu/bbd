@@ -64,7 +64,7 @@
 {
     self.tableView.tableHeaderView = self.headerView;
 //    self.tableView.scrollEnabled = NO;
-    self.navigationItem.title = @"首页";
+    self.navigationItem.title = @"借款";
     self.tableView.backgroundColor = RCColor(241, 242, 243);
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
