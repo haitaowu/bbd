@@ -93,6 +93,8 @@
 		BE7C45A91F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45A81F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m */; };
 		BE7C45AC1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */; };
 		BE7C45AF1F75080B0001BC03 /* BBDAuthenIDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */; };
+		BEDBB45E1F763FDE00CFB7CC /* BBDOccupationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */; };
+		BEDBB4611F76491B00CFB7CC /* BBDNoBorderField.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -324,6 +326,10 @@
 		BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenCardTableViewController.m; sourceTree = "<group>"; };
 		BE7C45AD1F75080B0001BC03 /* BBDAuthenIDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenIDTableViewController.h; sourceTree = "<group>"; };
 		BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDAuthenIDTableViewController.m; sourceTree = "<group>"; };
+		BEDBB45C1F763FDD00CFB7CC /* BBDOccupationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDOccupationTableViewController.h; sourceTree = "<group>"; };
+		BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDOccupationTableViewController.m; sourceTree = "<group>"; };
+		BEDBB45F1F76491B00CFB7CC /* BBDNoBorderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDNoBorderField.h; sourceTree = "<group>"; };
+		BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDNoBorderField.m; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -777,6 +783,8 @@
 				91079A1A1E1CF09200BD1C70 /* AliSDK */,
 				91C7777C1E1CD52600EA03CB /* HYTextField.h */,
 				91C7777D1E1CD52600EA03CB /* HYTextField.m */,
+				BEDBB45F1F76491B00CFB7CC /* BBDNoBorderField.h */,
+				BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -920,6 +928,8 @@
 				BE7C45AB1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m */,
 				BE7C45AD1F75080B0001BC03 /* BBDAuthenIDTableViewController.h */,
 				BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */,
+				BEDBB45C1F763FDD00CFB7CC /* BBDOccupationTableViewController.h */,
+				BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1234,6 +1244,7 @@
 			files = (
 				BE7C45981F749E840001BC03 /* BBDBasicInfoTableViewController.m in Sources */,
 				C2A4BA4C1E14CCE30016BD69 /* BBDMeMyBankCardController.m in Sources */,
+				BEDBB4611F76491B00CFB7CC /* BBDNoBorderField.m in Sources */,
 				2158E5561ECD42F800418B29 /* BBDSelectMoneyView.m in Sources */,
 				C21875071E1B4BAE000884EB /* BBDApplyDetailHeadView.m in Sources */,
 				BEE6A2301F738B0F0091C3C3 /* BaseView.m in Sources */,
@@ -1253,6 +1264,7 @@
 				616F32AA1E246E4000B451B9 /* BBDCommonLoanApplyTextFieldCell.m in Sources */,
 				9134EB8D1E13A45B00D659D4 /* BBDHomeViewController.m in Sources */,
 				61EC76361E14B42B0064B70C /* UIView+Extension.m in Sources */,
+				BEDBB45E1F763FDE00CFB7CC /* BBDOccupationTableViewController.m in Sources */,
 				61E6C0081E1E160200CB4E97 /* BBDPhoneVerifyController.m in Sources */,
 				61E6C0061E1E160200CB4E97 /* BBDFillBankCardController.m in Sources */,
 				9134EB8A1E13A38900D659D4 /* BBDRootNavigationController.m in Sources */,
