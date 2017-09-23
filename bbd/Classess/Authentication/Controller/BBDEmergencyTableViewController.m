@@ -8,6 +8,7 @@
 
 #import "BBDEmergencyTableViewController.h"
 #import "BRPickerView.h"
+#import "BBDConnectViewController.h"
 
 
 #define kFamilySectionIndex                         0
@@ -37,10 +38,22 @@
 #pragma mark - selectors
 //亲属关系 选择联系人
 - (IBAction)clickFamilyContactsBtn{
+    __block typeof(self) blockSelf = self;
+    BBDConnectViewController * vc = [[BBDConnectViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    vc.selectBlock = ^(NSString *phoneNum) {
+        blockSelf.familyPhoneField.text = phoneNum;
+    };
 }
 
 //社会关系 选择联系人
 - (IBAction)clickSocialContactsBtn{
+    __block typeof(self) blockSelf = self;
+    BBDConnectViewController * vc = [[BBDConnectViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    vc.selectBlock = ^(NSString *phoneNum) {
+        blockSelf.socialPhoneField.text = phoneNum;
+    };
 }
 
 #pragma mark - private methods UI

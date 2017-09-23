@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^SelectContactBlock)(NSString *phoneNum);
+
 @interface BBDConnectViewController : UIViewController
+@property (nonatomic,copy) SelectContactBlock selectBlock;
 
 @property (nonatomic,strong) NSArray * dataArray;
 

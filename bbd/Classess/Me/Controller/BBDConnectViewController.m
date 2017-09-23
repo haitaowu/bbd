@@ -51,4 +51,16 @@
     return cell;
 }
 
+#pragma mark - UITableView --- Table view  delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *phoneNum = @"";
+    BBDConnect * people = self.dataArray[indexPath.row];
+    phoneNum = people.phone;
+    if (self.selectBlock != nil) {
+        self.selectBlock(phoneNum);
+    }
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end
