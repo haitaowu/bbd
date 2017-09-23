@@ -95,6 +95,7 @@
 		BE7C45AF1F75080B0001BC03 /* BBDAuthenIDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */; };
 		BEDBB45E1F763FDE00CFB7CC /* BBDOccupationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */; };
 		BEDBB4611F76491B00CFB7CC /* BBDNoBorderField.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */; };
+		BEDBB4641F7663F100CFB7CC /* BBDEmergencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4631F7663F100CFB7CC /* BBDEmergencyTableViewController.m */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -330,6 +331,8 @@
 		BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDOccupationTableViewController.m; sourceTree = "<group>"; };
 		BEDBB45F1F76491B00CFB7CC /* BBDNoBorderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDNoBorderField.h; sourceTree = "<group>"; };
 		BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDNoBorderField.m; sourceTree = "<group>"; };
+		BEDBB4621F7663F100CFB7CC /* BBDEmergencyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDEmergencyTableViewController.h; sourceTree = "<group>"; };
+		BEDBB4631F7663F100CFB7CC /* BBDEmergencyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDEmergencyTableViewController.m; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -930,6 +933,8 @@
 				BE7C45AE1F75080B0001BC03 /* BBDAuthenIDTableViewController.m */,
 				BEDBB45C1F763FDD00CFB7CC /* BBDOccupationTableViewController.h */,
 				BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */,
+				BEDBB4621F7663F100CFB7CC /* BBDEmergencyTableViewController.h */,
+				BEDBB4631F7663F100CFB7CC /* BBDEmergencyTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1262,6 +1267,7 @@
 				BEE6A2341F738B0F0091C3C3 /* YYClassInfo.m in Sources */,
 				C2C3E3431E1505D400360C3C /* BBDMyApplyTableViewController.m in Sources */,
 				616F32AA1E246E4000B451B9 /* BBDCommonLoanApplyTextFieldCell.m in Sources */,
+				BEDBB4641F7663F100CFB7CC /* BBDEmergencyTableViewController.m in Sources */,
 				9134EB8D1E13A45B00D659D4 /* BBDHomeViewController.m in Sources */,
 				61EC76361E14B42B0064B70C /* UIView+Extension.m in Sources */,
 				BEDBB45E1F763FDE00CFB7CC /* BBDOccupationTableViewController.m in Sources */,
