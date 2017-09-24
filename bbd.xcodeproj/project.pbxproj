@@ -100,6 +100,7 @@
 		BEDBB46D1F773BD300CFB7CC /* BBDLoadRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB46B1F773BD300CFB7CC /* BBDLoadRecordCell.m */; };
 		BEDBB46E1F773BD300CFB7CC /* BBDLoadRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB46C1F773BD300CFB7CC /* BBDLoadRecordCell.xib */; };
 		BEDBB4701F773C2500CFB7CC /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB46F1F773C2500CFB7CC /* Me.storyboard */; };
+		BEDBB4731F774DA600CFB7CC /* BBDLoanDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4721F774DA600CFB7CC /* BBDLoanDetailViewController.m */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -343,6 +344,8 @@
 		BEDBB46B1F773BD300CFB7CC /* BBDLoadRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoadRecordCell.m; sourceTree = "<group>"; };
 		BEDBB46C1F773BD300CFB7CC /* BBDLoadRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBDLoadRecordCell.xib; sourceTree = "<group>"; };
 		BEDBB46F1F773C2500CFB7CC /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		BEDBB4711F774DA600CFB7CC /* BBDLoanDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDLoanDetailViewController.h; sourceTree = "<group>"; };
+		BEDBB4721F774DA600CFB7CC /* BBDLoanDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoanDetailViewController.m; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -691,6 +694,8 @@
 				C214A5921E16398300250A91 /* BBDAgreementController.m */,
 				BEDBB4651F77367B00CFB7CC /* BBDLoanListViewController.h */,
 				BEDBB4661F77367B00CFB7CC /* BBDLoanListViewController.m */,
+				BEDBB4711F774DA600CFB7CC /* BBDLoanDetailViewController.h */,
+				BEDBB4721F774DA600CFB7CC /* BBDLoanDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1295,6 +1300,7 @@
 				C2C3E3401E14FE3700360C3C /* BBDMyApplyController.m in Sources */,
 				BE7C45AC1F74FCBD0001BC03 /* BBDAuthenCardTableViewController.m in Sources */,
 				BE7C45A31F74A2130001BC03 /* BBDAuthenTableViewController.m in Sources */,
+				BEDBB4731F774DA600CFB7CC /* BBDLoanDetailViewController.m in Sources */,
 				61A1A6B81E1E470800FA1CD8 /* BBDCarPhoneVerifyOtherCell.m in Sources */,
 				610E94CC1E1F388700C7C9C5 /* BBDCommonPhoneVerifyController.m in Sources */,
 				91CC2FED1E1E1EE5006CE017 /* BBDSetPwdViewController.m in Sources */,

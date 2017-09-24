@@ -21,7 +21,6 @@ static NSString *BBDLoadRecordCellID = @"BBDLoadRecordCellID";
 #pragma mark - override methods
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"借款记录";
     UINib *cellNib = [UINib nibWithNibName:@"BBDLoadRecordCell" bundle:nil];
     [self.tableView registerNib:cellNib forCellReuseIdentifier:BBDLoadRecordCellID];
 }
@@ -52,6 +51,7 @@ static NSString *BBDLoadRecordCellID = @"BBDLoadRecordCellID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self performSegueWithIdentifier:@"detailSegue" sender:nil];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
