@@ -96,6 +96,10 @@
 		BEDBB45E1F763FDE00CFB7CC /* BBDOccupationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB45D1F763FDE00CFB7CC /* BBDOccupationTableViewController.m */; };
 		BEDBB4611F76491B00CFB7CC /* BBDNoBorderField.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */; };
 		BEDBB4641F7663F100CFB7CC /* BBDEmergencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4631F7663F100CFB7CC /* BBDEmergencyTableViewController.m */; };
+		BEDBB4681F77367B00CFB7CC /* BBDLoanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB4661F77367B00CFB7CC /* BBDLoanListViewController.m */; };
+		BEDBB46D1F773BD300CFB7CC /* BBDLoadRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB46B1F773BD300CFB7CC /* BBDLoadRecordCell.m */; };
+		BEDBB46E1F773BD300CFB7CC /* BBDLoadRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB46C1F773BD300CFB7CC /* BBDLoadRecordCell.xib */; };
+		BEDBB4701F773C2500CFB7CC /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDBB46F1F773C2500CFB7CC /* Me.storyboard */; };
 		BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */; };
 		BEE6A22E1F738B0F0091C3C3 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE6A21A1F738B0F0091C3C3 /* BRAddressPickerView.m */; };
 		BEE6A22F1F738B0F0091C3C3 /* BRCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEE6A21B1F738B0F0091C3C3 /* BRCity.plist */; };
@@ -333,6 +337,12 @@
 		BEDBB4601F76491B00CFB7CC /* BBDNoBorderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDNoBorderField.m; sourceTree = "<group>"; };
 		BEDBB4621F7663F100CFB7CC /* BBDEmergencyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDEmergencyTableViewController.h; sourceTree = "<group>"; };
 		BEDBB4631F7663F100CFB7CC /* BBDEmergencyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDEmergencyTableViewController.m; sourceTree = "<group>"; };
+		BEDBB4651F77367B00CFB7CC /* BBDLoanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDLoanListViewController.h; sourceTree = "<group>"; };
+		BEDBB4661F77367B00CFB7CC /* BBDLoanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoanListViewController.m; sourceTree = "<group>"; };
+		BEDBB46A1F773BD300CFB7CC /* BBDLoadRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDLoadRecordCell.h; sourceTree = "<group>"; };
+		BEDBB46B1F773BD300CFB7CC /* BBDLoadRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoadRecordCell.m; sourceTree = "<group>"; };
+		BEDBB46C1F773BD300CFB7CC /* BBDLoadRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBDLoadRecordCell.xib; sourceTree = "<group>"; };
+		BEDBB46F1F773C2500CFB7CC /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
 		BEE6A2171F738B0F0091C3C3 /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		BEE6A2181F738B0F0091C3C3 /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
 		BEE6A2191F738B0F0091C3C3 /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
@@ -350,7 +360,6 @@
 		BEE6A22A1F738B0F0091C3C3 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
 		BEE6A22B1F738B0F0091C3C3 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		BEE6A22C1F738B0F0091C3C3 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
-		BEEDC1BF1F72462A0046BDAB /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
 		C20A89E01E1C96AA00A34E5C /* BBDMyDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDMyDataController.h; sourceTree = "<group>"; };
 		C20A89E11E1C96AA00A34E5C /* BBDMyDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDMyDataController.m; sourceTree = "<group>"; };
 		C20A89E31E1CBEC400A34E5C /* BBDEditInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDEditInformationController.h; sourceTree = "<group>"; };
@@ -680,6 +689,8 @@
 				C214A58F1E162E9800250A91 /* BBDAboutBBDController.m */,
 				C214A5911E16398300250A91 /* BBDAgreementController.h */,
 				C214A5921E16398300250A91 /* BBDAgreementController.m */,
+				BEDBB4651F77367B00CFB7CC /* BBDLoanListViewController.h */,
+				BEDBB4661F77367B00CFB7CC /* BBDLoanListViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -718,7 +729,10 @@
 				C28BC37D1E1B7C1C000C1566 /* BBDApplyImageCell.m */,
 				C20A89E61E1CC2C200A34E5C /* BBDDateInputView.h */,
 				C20A89E71E1CC2C200A34E5C /* BBDDateInputView.m */,
-				BEEDC1BF1F72462A0046BDAB /* Me.storyboard */,
+				BEDBB46A1F773BD300CFB7CC /* BBDLoadRecordCell.h */,
+				BEDBB46B1F773BD300CFB7CC /* BBDLoadRecordCell.m */,
+				BEDBB46C1F773BD300CFB7CC /* BBDLoadRecordCell.xib */,
+				BEDBB46F1F773C2500CFB7CC /* Me.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1169,6 +1183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BC266B1E139F02000FDBD1 /* Assets.xcassets in Resources */,
+				BEDBB46E1F773BD300CFB7CC /* BBDLoadRecordCell.xib in Resources */,
+				BEDBB4701F773C2500CFB7CC /* Me.storyboard in Resources */,
 				C2810BBB1E27704900F9E89D /* MBProgressHUD.bundle in Resources */,
 				911A22091E150B8200574920 /* SGActionSheet.bundle in Resources */,
 				2158E5581ECD750C00418B29 /* Launch Screen.storyboard in Resources */,
@@ -1316,6 +1332,7 @@
 				9134EB821E13A10100D659D4 /* AppDelegate.m in Sources */,
 				C2A4BA521E14E2270016BD69 /* BBDAddBankCardController.m in Sources */,
 				91DFD31F1E15ED0F00F8D4DA /* BBDLoginViewController.m in Sources */,
+				BEDBB4681F77367B00CFB7CC /* BBDLoanListViewController.m in Sources */,
 				C2C3E3461E150D2F00360C3C /* BBDMyApplyCell.m in Sources */,
 				BEE6A22D1F738B0F0091C3C3 /* BRAddressModel.m in Sources */,
 				C20A89E81E1CC2C200A34E5C /* BBDDateInputView.m in Sources */,
@@ -1331,6 +1348,7 @@
 				BE7C45AF1F75080B0001BC03 /* BBDAuthenIDTableViewController.m in Sources */,
 				C2A4BA461E149F5E0016BD69 /* BBDNetworkTool.m in Sources */,
 				215E20631ED3C40400F4EB35 /* BBDConnectViewController.m in Sources */,
+				BEDBB46D1F773BD300CFB7CC /* BBDLoadRecordCell.m in Sources */,
 				91079A191E1CE42800BD1C70 /* NSString+CheckTel.m in Sources */,
 				61EC76331E14B3D80064B70C /* BBDHomeCell.m in Sources */,
 				616F32A71E246A6600B451B9 /* BBDCommonLoanApplySectionView.m in Sources */,

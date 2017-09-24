@@ -17,6 +17,7 @@
 #import <SVProgressHUD.h>
 #import "BBDMyDataController.h"
 #import "BBDConnectViewController.h"
+#import "BBDLoanListViewController.h"
 
 @interface BBDMeViewController ()<UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
@@ -63,6 +64,7 @@
     if (_itemArray == nil) {
         _itemArray = @[[[BBDItemModel alloc]initWithImage:@"me_1_icon" title:@"我的资料" class:
                         [BBDMyDataController class]],
+                       [[BBDItemModel alloc]initWithImage:@"me_2_icon" title:@"借款记录" class:[BBDLoanListViewController class]],
                        [[BBDItemModel alloc]initWithImage:@"me_2_icon" title:@"我的消息" class:[BBDMyMessageController class]],
                        [[BBDItemModel alloc]initWithImage:@"me_3_icon" title:@"关于帮帮贷" class:[BBDAboutBBDController class]],
                        [[BBDItemModel alloc]initWithImage:@"me_4_icon" title:@"资讯400电话" class:nil],
@@ -208,30 +210,36 @@
 //        return;
 //    }
     if (item.className != nil) {
-        UIViewController * vc = [[[item.className class]alloc]init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
-    
-    if (indexPath.row == 3) {
-        [BBDNetworkTool getTelephone:^(NSArray *telephone) {
-            
-            UIAlertController * alert = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-            
-            for (NSString * tel in telephone) {
-                UIAlertAction * confirm = [UIAlertAction actionWithTitle:[NSString stringWithFormat:@"拨打：%@",tel] style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
-                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",tel]]];
-                }];
-                [alert addAction:confirm];
-            }
-            
-            UIAlertAction * cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
-            [alert addAction:cancel];
-            
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
-            
-        } failure:^{
-            
-        }];
+        UIViewController * controller;
+        if ([[item.className description] isEqualToString:@"BBDLoanListViewController"] ) {
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Me" bundle:nil];
+            controller = [storyboard instantiateViewControllerWithIdentifier:@"BBDLoanListViewController"];
+        }else{
+             controller = [[[item.className class]alloc]init];
+        }
+        [self.navigationController pushViewController:controller animated:YES];
+    }else{
+        if (indexPath.row == 4) {
+            [BBDNetworkTool getTelephone:^(NSArray *telephone) {
+                
+                UIAlertController * alert = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+                
+                for (NSString * tel in telephone) {
+                    UIAlertAction * confirm = [UIAlertAction actionWithTitle:[NSString stringWithFormat:@"拨打：%@",tel] style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+                        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"tel:%@",tel]]];
+                    }];
+                    [alert addAction:confirm];
+                }
+                
+                UIAlertAction * cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+                [alert addAction:cancel];
+                
+                [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
+                
+            } failure:^{
+                
+            }];
+        }
     }
 }
 
