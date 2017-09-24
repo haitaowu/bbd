@@ -85,6 +85,8 @@
 		91CC2FED1E1E1EE5006CE017 /* BBDSetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CC2FEC1E1E1EE5006CE017 /* BBDSetPwdViewController.m */; };
 		91DFD31C1E15E4DC00F8D4DA /* YCMineProposalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31B1E15E4DC00F8D4DA /* YCMineProposalViewController.m */; };
 		91DFD31F1E15ED0F00F8D4DA /* BBDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */; };
+		BE2849791F776502002F6C5A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2849781F776502002F6C5A /* Home.storyboard */; };
+		BE28497C1F776584002F6C5A /* BBDHomeLoanController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28497B1F776584002F6C5A /* BBDHomeLoanController.m */; };
 		BE7C45981F749E840001BC03 /* BBDBasicInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */; };
 		BE7C45991F749E840001BC03 /* BBDAuthenInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45941F749E840001BC03 /* BBDAuthenInfoTableViewController.m */; };
 		BE7C459A1F749E840001BC03 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7C45971F749E840001BC03 /* Authentication.storyboard */; };
@@ -317,6 +319,9 @@
 		91DFD31B1E15E4DC00F8D4DA /* YCMineProposalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMineProposalViewController.m; sourceTree = "<group>"; };
 		91DFD31D1E15ED0F00F8D4DA /* BBDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDLoginViewController.h; sourceTree = "<group>"; };
 		91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDLoginViewController.m; sourceTree = "<group>"; };
+		BE2849781F776502002F6C5A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BE28497A1F776584002F6C5A /* BBDHomeLoanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDHomeLoanController.h; sourceTree = "<group>"; };
+		BE28497B1F776584002F6C5A /* BBDHomeLoanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDHomeLoanController.m; sourceTree = "<group>"; };
 		BE7C45911F749E840001BC03 /* BBDBasicInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDBasicInfoTableViewController.h; sourceTree = "<group>"; };
 		BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDBasicInfoTableViewController.m; sourceTree = "<group>"; };
 		BE7C45931F749E840001BC03 /* BBDAuthenInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenInfoTableViewController.h; sourceTree = "<group>"; };
@@ -543,6 +548,8 @@
 		9134EB6A1E13A10100D659D4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BE28497A1F776584002F6C5A /* BBDHomeLoanController.h */,
+				BE28497B1F776584002F6C5A /* BBDHomeLoanController.m */,
 				9134EB8B1E13A45B00D659D4 /* BBDHomeViewController.h */,
 				9134EB8C1E13A45B00D659D4 /* BBDHomeViewController.m */,
 				6181C5231E2CB0C000FB9814 /* BBDHomeMainController.h */,
@@ -606,6 +613,7 @@
 				618E79BA1E1606750098FA6B /* BBDIDPictureView.m */,
 				2158E5541ECD42F800418B29 /* BBDSelectMoneyView.h */,
 				2158E5551ECD42F800418B29 /* BBDSelectMoneyView.m */,
+				BE2849781F776502002F6C5A /* Home.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1188,6 +1196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BC266B1E139F02000FDBD1 /* Assets.xcassets in Resources */,
+				BE2849791F776502002F6C5A /* Home.storyboard in Resources */,
 				BEDBB46E1F773BD300CFB7CC /* BBDLoadRecordCell.xib in Resources */,
 				BEDBB4701F773C2500CFB7CC /* Me.storyboard in Resources */,
 				C2810BBB1E27704900F9E89D /* MBProgressHUD.bundle in Resources */,
@@ -1351,6 +1360,7 @@
 				610E94D81E1F73FD00C7C9C5 /* XLNetworking.m in Sources */,
 				C20A89E51E1CBEC400A34E5C /* BBDEditInformationController.m in Sources */,
 				61EC763C1E14E0A20064B70C /* BBDHomeApplyCell.m in Sources */,
+				BE28497C1F776584002F6C5A /* BBDHomeLoanController.m in Sources */,
 				BE7C45AF1F75080B0001BC03 /* BBDAuthenIDTableViewController.m in Sources */,
 				C2A4BA461E149F5E0016BD69 /* BBDNetworkTool.m in Sources */,
 				215E20631ED3C40400F4EB35 /* BBDConnectViewController.m in Sources */,

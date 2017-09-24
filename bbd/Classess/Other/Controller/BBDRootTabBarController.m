@@ -12,6 +12,8 @@
 #import "BBDServeViewController.h"
 #import "BBDMeViewController.h"
 #import "BBDNetworkTool.h"
+#import "BBDHomeLoanController.h"
+
 
 @interface BBDRootTabBarController ()
 
@@ -22,12 +24,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 添加子控制器
-    [self setupChildVc:[[BBDHomeViewController alloc] init] title:@"借款" image:@"bottom_home_icon"];
+    //借款
+    UIStoryboard *homeStoryboard = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+    BBDHomeLoanController *controller = [homeStoryboard instantiateViewControllerWithIdentifier:@"BBDHomeLoanController"];
+    [self setupChildVc:controller title:@"借款" image:@"bottom_home_icon"];
     
+//    [self setupChildVc:[[BBDHomeViewController alloc] init] title:@"借款" image:@"bottom_home_icon"];
+   //认证
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Authentication" bundle:nil];
     UIViewController *authenticationController = [storyboard instantiateViewControllerWithIdentifier:@"AuthenticationController"];
     [self setupChildVc:authenticationController title:@"认证" image:@"bottom_hand_icon"];
-    
+    //我
     BBDMeViewController * me = [[BBDMeViewController alloc]init];
     [BBDNetworkTool getUnreadMessageCount:^(int messageCount) {
         NSLog(@"%d",messageCount);
