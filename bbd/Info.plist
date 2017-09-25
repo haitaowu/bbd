@@ -30,7 +30,7 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>调用相机</string>
+	<string>我们需要您使用相机</string>
 	<key>NSContactsUsageDescription</key>
 	<string>请求访问通讯录</string>
 	<key>NSLocationAlwaysUsageDescription</key>

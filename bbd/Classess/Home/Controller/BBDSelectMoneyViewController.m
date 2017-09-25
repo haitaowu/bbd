@@ -11,6 +11,7 @@
 #import "BBDNetworkTool.h"
 #import <SVProgressHUD.h>
 #import "BBDCommonLoanApplyController.h"
+#import "BBDHomeAuthenTableViewController.h"
 
 @interface BBDSelectMoneyViewController ()<BBDSelectMoneyViewDelegate>
 
@@ -177,9 +178,13 @@
     if (!(self.money&&self.day)) {
         return;
     }
-    BBDCommonLoanApplyController * vc = [[BBDCommonLoanApplyController alloc]init];
-    vc.moneyID = self.moneyID;
-    [self.navigationController pushViewController:vc animated:YES];
+    
+    UIStoryboard *homeStoryboard = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+    BBDHomeAuthenTableViewController *controller = [homeStoryboard instantiateViewControllerWithIdentifier:@"BBDHomeAuthenTableViewController"];
+    
+//    BBDCommonLoanApplyController * vc = [[BBDCommonLoanApplyController alloc]init];
+//    vc.moneyID = self.moneyID;
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

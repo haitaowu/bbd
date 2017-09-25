@@ -87,6 +87,7 @@
 		91DFD31F1E15ED0F00F8D4DA /* BBDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFD31E1E15ED0F00F8D4DA /* BBDLoginViewController.m */; };
 		BE2849791F776502002F6C5A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2849781F776502002F6C5A /* Home.storyboard */; };
 		BE28497C1F776584002F6C5A /* BBDHomeLoanController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28497B1F776584002F6C5A /* BBDHomeLoanController.m */; };
+		BE28497F1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28497E1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.m */; };
 		BE7C45981F749E840001BC03 /* BBDBasicInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */; };
 		BE7C45991F749E840001BC03 /* BBDAuthenInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7C45941F749E840001BC03 /* BBDAuthenInfoTableViewController.m */; };
 		BE7C459A1F749E840001BC03 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7C45971F749E840001BC03 /* Authentication.storyboard */; };
@@ -322,6 +323,8 @@
 		BE2849781F776502002F6C5A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		BE28497A1F776584002F6C5A /* BBDHomeLoanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDHomeLoanController.h; sourceTree = "<group>"; };
 		BE28497B1F776584002F6C5A /* BBDHomeLoanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDHomeLoanController.m; sourceTree = "<group>"; };
+		BE28497D1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDHomeAuthenTableViewController.h; sourceTree = "<group>"; };
+		BE28497E1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDHomeAuthenTableViewController.m; sourceTree = "<group>"; };
 		BE7C45911F749E840001BC03 /* BBDBasicInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDBasicInfoTableViewController.h; sourceTree = "<group>"; };
 		BE7C45921F749E840001BC03 /* BBDBasicInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDBasicInfoTableViewController.m; sourceTree = "<group>"; };
 		BE7C45931F749E840001BC03 /* BBDAuthenInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDAuthenInfoTableViewController.h; sourceTree = "<group>"; };
@@ -548,6 +551,8 @@
 		9134EB6A1E13A10100D659D4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BE28497D1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.h */,
+				BE28497E1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.m */,
 				BE28497A1F776584002F6C5A /* BBDHomeLoanController.h */,
 				BE28497B1F776584002F6C5A /* BBDHomeLoanController.m */,
 				9134EB8B1E13A45B00D659D4 /* BBDHomeViewController.h */,
@@ -1282,6 +1287,7 @@
 				BEDBB4611F76491B00CFB7CC /* BBDNoBorderField.m in Sources */,
 				2158E5561ECD42F800418B29 /* BBDSelectMoneyView.m in Sources */,
 				C21875071E1B4BAE000884EB /* BBDApplyDetailHeadView.m in Sources */,
+				BE28497F1F779E3B002F6C5A /* BBDHomeAuthenTableViewController.m in Sources */,
 				BEE6A2301F738B0F0091C3C3 /* BaseView.m in Sources */,
 				C2A4BA431E13DA5F0016BD69 /* BBDMeHomeButton.m in Sources */,
 				BE7C45A91F74EEF30001BC03 /* BBDAuthenPhoneSuccController.m in Sources */,

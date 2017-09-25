@@ -14,7 +14,7 @@
         <!--身份认证-->
         <scene sceneID="gzQ-J6-UZZ">
             <objects>
-                <tableViewController id="olg-lT-66E" customClass="BBDAuthenIDTableViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="BBDAuthenIDTableViewController" id="olg-lT-66E" customClass="BBDAuthenIDTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="AS0-Vx-aM2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,6 +61,9 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx4-iO-m1W" userLabel="coverBtn">
                                                             <rect key="frame" x="0.0" y="-1" width="375" height="181"/>
+                                                            <connections>
+                                                                <action selector="tapIDCardBtn:" destination="olg-lT-66E" eventType="touchUpInside" id="w8f-PV-h3e"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,6 +131,9 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAc-UW-kez" userLabel="coverBtn">
                                                             <rect key="frame" x="0.0" y="-1" width="375" height="181"/>
+                                                            <connections>
+                                                                <action selector="tapIDCardUserBtn:" destination="olg-lT-66E" eventType="touchUpInside" id="aCB-Ru-guh"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -199,6 +205,8 @@
                     <navigationItem key="navigationItem" title="身份认证" id="4fB-oC-7So"/>
                     <connections>
                         <outlet property="confirmCell" destination="79o-Ij-Nou" id="eEj-3Q-PrV"/>
+                        <outlet property="idCardUserView" destination="6g8-K5-vSt" id="wmV-K1-3fO"/>
+                        <outlet property="idCardView" destination="ayu-b3-qya" id="HX8-YM-6Pc"/>
                         <outlet property="submitBtn" destination="D6w-38-SVq" id="RV4-WJ-gzb"/>
                     </connections>
                 </tableViewController>
@@ -1523,7 +1531,7 @@
         <!--手机认证-->
         <scene sceneID="XNc-NW-fNZ">
             <objects>
-                <tableViewController id="2QZ-Gm-rLW" customClass="BBDAuthenPhoneTableController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="BBDAuthenPhoneTableController" id="2QZ-Gm-rLW" customClass="BBDAuthenPhoneTableController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="EvV-vX-g37">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
