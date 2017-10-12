@@ -44,6 +44,10 @@
     [self pickImageByCamera];
 }
 
+//点击提交按钮
+- (IBAction)tapSubmitBtn:(id)sender {
+}
+
 #pragma mark - private methods
 - (void)pickImageByCamera
 {

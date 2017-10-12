@@ -64,6 +64,10 @@
     }
 }
 
+//submit
+- (IBAction)tapSubmitBtn:(id)sender {
+}
+
 #pragma mark - private methods
 - (void)getCurrentAdrWithLoc:(CLLocation *)newLocation
 {

@@ -11,6 +11,9 @@
 @interface BBDAuthenInfoTableViewController ()
 @property (weak, nonatomic) IBOutlet UITableViewCell *confirmCell;
 @property (weak, nonatomic) IBOutlet UIButton *submitBtn;
+@property (weak, nonatomic) IBOutlet UITextField *basicInfoField;
+@property (weak, nonatomic) IBOutlet UITextField *occupationField;
+@property (weak, nonatomic) IBOutlet UITextField *emergencyField;
 
 @end
 
@@ -20,6 +23,11 @@
     [super viewDidLoad];
     self.title = @"个人信息";
     self.confirmCell.selectionStyle = UITableViewCellSelectionStyleNone;
+}
+
+#pragma mark - selectors
+//点击提交
+- (IBAction)tapSubmitBtn:(id)sender {
 }
 
 #pragma mark - UITableView --- Table view  delegate

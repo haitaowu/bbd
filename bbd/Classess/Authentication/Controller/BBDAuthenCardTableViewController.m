@@ -40,6 +40,12 @@
 }
 
 #pragma mark - selectors
+//点击确定按钮
+- (IBAction)clickConfirmBtn:(id)sender {
+}
+
+
+#pragma mark - private methods
 - (void)startUpldatingLocation{
     if([CLLocationManager locationServicesEnabled])
     {
@@ -54,7 +60,6 @@
     }
 }
 
-#pragma mark - private methods
 - (void)getCurrentAdrWithLoc:(CLLocation *)newLocation
 {
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
@@ -86,9 +91,6 @@
         weakSelf.bankField.text = selectValue;
     }];
 }
-
-
-
 
 //选择城市
 - (void)setupCityPickView
@@ -130,7 +132,6 @@
 }
 
 #pragma mark -- CLLocationManagerDelegate
-
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation{
     [self.locationManager stopUpdatingLocation];
      [self getCurrentAdrWithLoc:newLocation];

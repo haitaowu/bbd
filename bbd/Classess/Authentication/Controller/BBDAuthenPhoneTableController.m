@@ -9,6 +9,9 @@
 #import "BBDAuthenPhoneTableController.h"
 
 @interface BBDAuthenPhoneTableController ()
+@property (weak, nonatomic) IBOutlet UILabel *phoneLabel;
+@property (weak, nonatomic) IBOutlet UITextField *codeField;
+@property (weak, nonatomic) IBOutlet UIButton *codeBtn;
 
 @end
 
@@ -17,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -40,7 +42,14 @@
     [self performSegueWithIdentifier:@"authenSuccSegue" sender:nil];
 }
 
+//获取验证码
+- (IBAction)tapGetCodeBtn:(id)sender {
+}
 
+
+//协议按钮
+- (IBAction)tapSpecificationBtn:(id)sender {
+}
 
 
 #pragma mark - UITableView --- Table view  delegate

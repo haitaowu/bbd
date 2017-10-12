@@ -56,6 +56,10 @@
     };
 }
 
+//confirm btn clicked 
+- (IBAction)tapConfirmBtn:(id)sender {
+}
+
 #pragma mark - private methods UI
 //亲属关系
 - (void)setupFamilyPickView
@@ -74,7 +78,6 @@
         weakSelf.socialField.text = selectValue;
     }];
 }
-
 
 #pragma mark - UIScrollView delegate
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView

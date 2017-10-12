@@ -59,6 +59,10 @@
     }
 }
 
+//点击提交按钮
+- (IBAction)tapSubmitBtn:(id)sender {
+}
+
 #pragma mark - private methods
 - (void)getCurrentAdrWithLoc:(CLLocation *)newLocation
 {

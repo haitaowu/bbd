@@ -1158,7 +1158,7 @@
 				TargetAttributes = {
 					91BC265A1E139F02000FDBD1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = YTV9736654;
+						DevelopmentTeam = H7BWC9NUF4;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -1530,7 +1530,7 @@
 				CODE_SIGN_ENTITLEMENTS = bbd/bbd.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = YTV9736654;
+				DEVELOPMENT_TEAM = H7BWC9NUF4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/bbd/Classess/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = bbd/Info.plist;
@@ -1551,7 +1551,7 @@
 				CODE_SIGN_ENTITLEMENTS = bbd/bbd.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = YTV9736654;
+				DEVELOPMENT_TEAM = H7BWC9NUF4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/bbd/Classess/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = bbd/Info.plist;
